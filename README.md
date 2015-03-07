@@ -1,2 +1,2 @@
 # stewartmurrie.github.io
-Stewart Murrie's GitHub Pages site
+Stewart Murrie's GitHub Pages site.
