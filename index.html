@@ -1,18 +1,65 @@
 <!DOCTYPE html>
-<html><head>
+<html>
+
+<head>
 	<title>Test page; don't panic!</title>
 	<meta charset="utf-8">
+	<style>
+		a {
+			color: red;
+		}
+
+		#exec-bio {
+			background-color: lightgray;
+		}
+
+		.bio-box wada {
+			border: 1px solid black;
+		}
+
+		.bio-box wada a {
+			color: green;
+		}
+
+		.pullit {
+			background-color: orange;
+		}
+
+		.wada {
+			background-color: azure;
+		}
+	</style>
 </head>
+
 <body>
 	<h1>Hi! I'm a big fat heading.</h1>
-	<ul><li><a href="example.com" style="color: red">Link</a></li>
-	<li><a href="example.com" style="color: red">Link</a></li>
-	<li><a href="example.com" style="color: red">Link</a></li>
-	<li><a href="example.com" style="color: red">Link</a></li></ul>
+	<ul>
+		<li>
+			<a class="pullit" href="example.com">Link</a>
+		</li>
+		<li>
+			<a href="example.com">Link</a>
+		</li>
+		<li>
+			<a href="example.com">Link</a>
+		</li>
+		<li>
+			<a href="example.com">Link</a>
+		</li>
+	</ul>
 	<h2>I'm a subhead</h2>
-	<div style="border: 1px solid black"><a href="http://example.com/" style="color: green">I'm a link</a></div>
-	<div style="border: 1px solid black"><a href="http://example.com/" style="color: green">I'm a link</a></div>
-	<div style="border: 1px solid black"><a href="http://example.com/" style="color: green">I'm a link</a></div>
-	<div style="border: 1px solid black"><a href="http://example.com/" style="color: green">I'm a link</a></div>
+	<div class="bio-box wada" id="exec-bio">
+		<a href="http://example.com/">I'm a link</a>
+	</div>
+	<div class="bio-box wada">
+		<a href="http://example.com/">I'm a link</a>
+	</div>
+	<div class="bio-box wada">
+		<a href="http://example.com/">I'm a link</a>
+	</div>
+	<div class="bio-box wada">
+		<a href="http://example.com/">I'm a link</a>
+	</div>
 </body>
+
 </html>
